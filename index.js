@@ -2,8 +2,8 @@ import React from 'react';
 import { render } from 'react-dom';
 
 const Idioma = ({traduccion}) =>{
-  if(traduccion == 'es') return <h1>Hola</h1>;
-  if(traduccion == 'en') return <h1>Hello</h1>;
+  if(traduccion == 'es') return <span>Hola</span>;
+  if(traduccion == 'en') return <span>Hello</span>;
 }
 
 const Saludo = () =>{
